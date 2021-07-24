@@ -96,6 +96,7 @@ flex-direction: row;
 }
 .about{
     margin-top: 80px;
+    width: 50%;
 }
 hr{
     border-top:0;
