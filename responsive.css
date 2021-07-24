@@ -1,0 +1,164 @@
+/*=======================================================================------------====================================================================
+   Responsive
+    =======================================================================------------====================================================================
+    */
+
+
+    @media only screen and (max-width:768px) {
+        
+        .container-all{
+            width:100%;
+            /* margin:auto; */
+        }
+        
+        .bg-nav{
+            background:#2f3338;
+         }
+
+        .profile-area{
+            width:100%;
+            margin-top:100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+            }
+            .profile img{
+                width:90%;
+            }
+            .profile-info{
+                width: 90%;
+                margin-top: 75px;
+            }
+
+            .active-bg-1{
+                right: 22%;
+                top: 71%;
+            }
+
+            .profile-info a{
+            
+                height:45px;
+                width:143px;
+                
+                padding: 5px 5px;
+                text-align: center;
+            }
+
+            .about{
+                width:90%;
+            }
+
+/* what i do  */
+
+
+
+.skill-boxs{
+    flex-direction: column;
+    margin:auto;
+}
+
+/* my-ditail */
+.my-ditails{
+    flex-direction: column;
+}
+
+
+/* My Skills */
+.skills{
+    flex-direction: column;
+    height:auto;
+    margin-right:0;
+}
+.skill{
+    margin:0;
+}
+.re-meter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+/* My identity  */
+
+
+.my-all-identity {
+    width: 100%;
+    height: 1600px;
+    margin-top: 80px;
+    flex-direction: column;
+    height:auto;
+
+}
+
+.start-nav-area {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 30px;
+}
+.active-bg{
+    right: 29%;
+    top: 59%;
+    
+}
+.middle-nav-area {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    
+}
+
+
+.head-text {
+    width:auto;
+    width: 90%;
+}
+
+.text-img{
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0 0 0;
+}
+
+
+
+.end-nav-area{
+display: none;
+}
+
+.servise-head {
+    width: 90%;
+}
+
+
+.servises-box {
+    grid-template-columns: repeat(1, 1fr);
+}
+  /* Get in touch */
+
+  .get-touch input, .get-touch textarea{
+width: 90%;
+margin: auto;
+  }
+
+  form{
+      width: 100%;
+  }
+
+
+        
+.form-margin{
+    margin-left:0;
+}
+
+
+
+
+
+
+
+
+
+    }
