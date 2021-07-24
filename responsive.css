@@ -6,14 +6,29 @@
 
     @media only screen and (max-width:768px) {
         
+
+
+
+
+
+
+
+
+
         .container-all{
             width:100%;
             /* margin:auto; */
+        }
+        .logo-img{
+            width:40px;
         }
         
         .bg-nav{
             background:#2f3338;
          }
+         .nav-name{
+            font-size:16px;
+        }
 
         .profile-area{
             width:100%;
@@ -24,7 +39,7 @@
             flex-direction: column-reverse;
             }
             .profile img{
-                width:90%;
+                width:70%;
             }
             .profile-info{
                 width: 90%;
@@ -32,8 +47,9 @@
             }
 
             .active-bg-1{
+                
                 right: 22%;
-                top: 71%;
+                top: 62%;
             }
 
             .profile-info a{
@@ -55,12 +71,18 @@
 
 .skill-boxs{
     flex-direction: column;
-    margin:auto;
+    align-items: center;
+}
+
+.skill-box{
+    margin-left: 0;
+    margin-bottom: 50px;
 }
 
 /* my-ditail */
 .my-ditails{
     flex-direction: column;
+    align-items: center;
 }
 
 
