@@ -184,3 +184,48 @@ margin: auto;
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width:320px){
+        .logo-img{
+            width:25px;
+        }
+        
+        .bg-nav{
+            background:#2f3338;
+         }
+         .nav-name{
+            font-size:12px;
+        }
+
+        .profile-area{
+            width:100%;
+            margin-top:100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column-reverse;
+            }
+            .profile img{
+                width:70%;
+            }
+    }
