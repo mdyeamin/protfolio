@@ -32,31 +32,43 @@ margin-top:80px;
 
 
 
-.my-profile-1{
+/* .my-profile-1{
     position: relative;
 }
 
 .active-bg-1{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    background: #3f3e3e;
+    background: #474747;
     border-radius: 50%;
     right: 20%;
-    top: 76%;
+    top: 77%;
     
 }
 .active-color-1{
-    
-    width:30px;
-    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width:20px;
+    height:20px;
     border-radius: 50%;
-    background: #04dd5e;
+    background: #31a24c;
+} */
+
+.universe{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
+.universe svg{
+    margin-left: 10px;
+}
 
 
 
@@ -279,24 +291,25 @@ margin-top: 80px;
     margin: auto;
 }
 .active-bg{
-    width:30px;
-    height:30px;
+    width:20px;
+    height:20px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    background: #3f3e3e;
+    background: #474747;
     border-radius: 50%;
     right: 30%;
-    top: 54%;
+    top: 55%;
     
 }
 .active-color{
     
-    width:20px;
-    height:20px;
+    width:15px;
+    height:15px;
     border-radius: 50%;
-    background: #04dd5e;
+    background: #31a24c;
+    position: relative;
 }
 .my-profile{
 
