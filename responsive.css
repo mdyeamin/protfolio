@@ -45,6 +45,7 @@
                 top: 62%;
             } */
 
+           
             .profile-info a{
             
                 height:45px;
@@ -189,7 +190,7 @@
     }
 
 
-    @media only screen and (max-width:320px) {
+    @media only screen and (max-width:360px) {
         .logo-img{
             width:25px;
         }
@@ -212,6 +213,34 @@
             .profile img{
                 width:70%;
             }
+
+
+            .wrapper .dynamic-txts{
+                
+                height: 20px;
+                line-height: 20px;
+               
+                
+            }
+
+
+            .dynamic-txts li{
+               
+                
+                font-size: 15px;
+                
+                top: 0;
+               
+            }
+
+            @keyframes slide {
+                100%{
+                    top: -80px;
+                }
+            }
+            
+
+
 
             /* .active-bg-1{
                 width: 26px;
